@@ -843,7 +843,7 @@ small {
   }
 
   .work_heading > h2 {
-    width: 20%;
+    width: 23%;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -856,7 +856,6 @@ small {
   .work_heading > hr {
     width: 50%;
     margin-top: 25%;
-    border: 1px solid gray;
     color: gray;
   }
 
