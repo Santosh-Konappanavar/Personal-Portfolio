@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  width: 100%;
+  min-width: 100%;
   background-color: #3c3a39;
   height: 48px;
 }
@@ -108,7 +108,7 @@ button.nav_drop.active {
 
 .head {
   background-color: #1c1a19;
-  width: 100%;
+  min-width: 99.7%;
   background-image: url("image/header-mobile.png");
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -293,8 +293,7 @@ button.nav_drop.active {
   margin: 2.5vh auto;
   background-image: url("image/Img\ Placeholder\ \(3\).png");
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 16vh;
+  background-size: contain;
   display: flex;
   flex-direction: column;
   width: 90vw;
@@ -303,16 +302,16 @@ button.nav_drop.active {
 .otherprojectheading {
   width: 80vw;
   font-weight: 400;
-  margin: 0 auto;
+  margin: 0% auto;
   font-size: 32px;
   line-height: 44px;
-  color: #fff;
+  color: rgb(69, 68, 68) !important;
 }
 
 .otherprojecttext {
   width: 80vw;
   margin: 2vh auto 0 auto;
-  color: #fff;
+  color: rgb(69, 68, 68) !important;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -355,11 +354,11 @@ button.nav_drop.active {
   align-items: center;
   height: 5vh;
   justify-content: center;
-  color: white;
+  color: rgb(69, 68, 68) !important;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  background: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.24) !important;
 }
 
 .popclass {
